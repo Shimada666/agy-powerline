@@ -1,0 +1,103 @@
+{
+  "$schema": "https://agy-powerline.com/schema/v1.json",
+  "theme": "dark-aurora",
+  "emojis": false,
+  "ascii": true,
+  "color": "truecolor",
+  "layout": "lines",
+  "language": "en",
+  "pacing": false,
+  "minimalist": false,
+  "rowGap": false,
+  "log": true,
+  "clock": {
+    "hour12": null,
+    "timeZone": "",
+    "locale": ""
+  },
+  "thresholds": {
+    "quotaWarn": 30,
+    "quotaCrit": 10,
+    "contextWarn": 70,
+    "contextCrit": 90,
+    "blink": false
+  },
+  "powerline": {
+    "enabled": true,
+    "separators": [
+      "E0B4"
+    ],
+    "separatorInvert": [
+      false
+    ],
+    "startCaps": [
+      "E0B6"
+    ],
+    "endCaps": [
+      "E0B4"
+    ]
+  },
+  "widgets": [
+    {
+      "id": "title",
+      "label": "Session"
+    },
+    {
+      "id": "separator"
+    },
+    {
+      "id": "model"
+    },
+    {
+      "id": "separator"
+    },
+    {
+      "id": "contextTokens"
+    },
+    {
+      "id": "contextPct"
+    },
+    {
+      "id": "separator"
+    },
+    {
+      "id": "cacheHit"
+    },
+    {
+      "id": "lineBreak"
+    },
+    {
+      "id": "thirdPartyFiveHour"
+    },
+    {
+      "id": "thirdPartyWeekly"
+    },
+    {
+      "id": "separator"
+    },
+    {
+      "id": "fiveHourPct"
+    },
+    {
+      "id": "fiveHourReset"
+    },
+    {
+      "id": "separator"
+    },
+    {
+      "id": "weeklyPct"
+    },
+    {
+      "id": "weeklyReset"
+    },
+    {
+      "id": "separator"
+    },
+    {
+      "id": "argonWeekly"
+    },
+    {
+      "id": "argonReset"
+    }
+  ]
+}
